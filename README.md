@@ -11,12 +11,19 @@ ii) The secondary task to detect faces that have their mask only covering the no
 This repository contains implementation of the below models for Face mask detection
 
 1. MobileNet
+
         to train for primary task - Facemask-detection-task1.ipynb
+        
         to train for secondary task - Facemask-detection-task2.ipynb
-2. BKNet 
+        
+2. BKNet
+ 
         to train for for primary task - Evalsingletask.ipynb
+        
         to train for both primary and secondary tasks:
+        
                     Training - BKNetMultitask/BKNet_multitask_train.ipynb
+                    
                     Evaluation - BKNetMultitask/BKNet_multitask_evaluate.ipynb
                     
 Code for data processing: Data Pre-processing.ipynb
