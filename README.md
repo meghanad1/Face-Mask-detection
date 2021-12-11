@@ -1,7 +1,7 @@
 # Face-Mask-detection using Multi task learning
 
 ## Overview
-We implement an approach to predict two objectives in the multitask set up
+We use multi-task learning approach for the following objectives
 
 i) The primary task to detect faces that have their masks worn correctly or incorrectly
 
@@ -12,15 +12,15 @@ This repository contains implementation of the below models for Face mask detect
 
 1. MobileNet
 
-        to train for primary task - Facemask-detection-task1.ipynb
+        to train MobileNet for primary task - Facemask-detection-task1.ipynb
         
-        to train for secondary task - Facemask-detection-task2.ipynb
+        to train MobileNet for secondary task - Facemask-detection-task2.ipynb
         
 2. BKNet
  
-        to train for for primary task - Evalsingletask.ipynb
+        to train BKNet for primary task - Evalsingletask.ipynb
         
-        to train for both primary and secondary tasks:
+        to train BKNet for both primary and secondary tasks:
         
                     Training - BKNetMultitask/BKNet_multitask_train.ipynb
                     
